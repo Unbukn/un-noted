@@ -1,0 +1,19 @@
+{
+  "name": "un-noted",
+  "version": "1.0.0",
+  "description": "It takes notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unbukn/un-noted.git"
+  },
+  "author": "James Hudgins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Unbukn/un-noted/issues"
+  },
+  "homepage": "https://github.com/Unbukn/un-noted#readme"
+}
