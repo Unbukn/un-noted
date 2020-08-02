@@ -6,9 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Note Taker</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
@@ -35,39 +33,8 @@
       </div>
     </div>
   </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="/assets/js/index.js"></script>
+
 </body>
-
-<script type="text/javascript">
-    function getNotes() {
-    // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)
-    $.ajax({ url: "api/notes", method: "GET" })
-      .then(function(notesData) {
-
-        // Here we then log the tableData to console, where it will show up as an object.
-        console.log(notesData);
-        console.log("------------------------------------");
-
-        // Loop through and display each note in a list
-        for (var i = 0; i < notesData.length; i++) {
-          // define the notes list
-          var noteListContainer = $(".list-group");
-          // create new li Element
-          var newLi = $("<li>")
-          // give it an id
-          newLi.attr("id", i);
-          // give the note list item BS4 Styles
-          newLi.addClass("list-group-item");
-          // give the note list item text
-          newLi.text(notesData[i].title);
-          // append the li to the ul
-          newLi.appendTo(noteListContainer);
-
-        }
-      });
-  }
-  getNotes()
-</script>
-
-</html>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+  </html>
