@@ -23,12 +23,14 @@ For users that need to keep track of a lot of information, it's easy to forget o
 Copyright (c) 2020 James_Hudgins
 
 ## Contributing
-This application was developed by James Hudgins. TEAM-GENERATOR was made possible with the following technologies:
+This application was developed by James Hudgins. un-noted was made possible with the following technologies:
 * HTML 5
 * CSS 3
-* Bootstrap
+* Bootstrap 4
 * [Express](https://www.npmjs.com/package/express)
 * [Node.js](https://nodejs.org/api/fs.html)
+* SQL
+* My Sql
 
 
 ## Tests
